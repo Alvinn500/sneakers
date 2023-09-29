@@ -294,7 +294,7 @@ aside .menu {
     height: 600px;
     overflow-y: auto;
     position: fixed;
-    top: 8rem;
+    top: 7rem;
     right: 0;
     transform: translateX(1000px);
     /* display: none; */
