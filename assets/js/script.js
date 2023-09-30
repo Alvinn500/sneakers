@@ -1,10 +1,8 @@
-document.addEventListener("DOMContentLoaded", () => {
-  const hamburger = document.querySelector("#hamburger");
-  const list = document.getElementById("list");
-  hamburger.addEventListener("click", () => {
-    list.classList.toggle("list-active");
-    hamburger.classList.toggle("hamburger-active");
-  });
+const hamburger = document.querySelector("#hamburger");
+const list = document.getElementById("list");
+hamburger.addEventListener("click", () => {
+  list.classList.toggle("list-active");
+  hamburger.classList.toggle("hamburger-active");
 });
 
 // document.addEventListener("DOMContentLoaded", () => {
